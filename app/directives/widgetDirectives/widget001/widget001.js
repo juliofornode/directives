@@ -6,39 +6,39 @@
 
         .controller('W1Controller', ['$scope', function ($scope) {
 
-            $scope.julio = {
-                name: "Julio",
+            $scope.john = {
+                name: "John",
                 age: 44,
                 sisters: [
                     {
-                        name: "Mariau",
+                        name: "Mary",
                         age: 45
                     },
                     {
-                        name: "Belen",
+                        name: "Beth",
                         age: 42
                     },
                     {
-                        name: "Lourdes",
+                        name: "Lou",
                         age: 40
                     }
                 ]
             };
 
-            $scope.mariau = {
-                name: "Mariau",
+            $scope.mary = {
+                name: "Mary",
                 age: 45,
                 sisters: [
                     {
-                        name: "Julio",
+                        name: "John",
                         age: 44
                     },
                     {
-                        name: "Belen",
+                        name: "Beth",
                         age: 42
                     },
                     {
-                        name: "Lourdes",
+                        name: "Lou",
                         age: 40
                     }
                 ]

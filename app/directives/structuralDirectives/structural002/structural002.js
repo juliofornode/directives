@@ -27,7 +27,7 @@
 
                                 element.after(clone);
 
-                            })
+                            });
 
                             unWatch();
 
